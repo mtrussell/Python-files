@@ -1,0 +1,37 @@
+Lab 5A –Void Functions
+
+Test Score Average and Letter Grade
+Write an IPO diagram and Python program that has two functions, main and determine_grade.
+main – Should accept input of five numeric grades from the user USING A LOOP.   It should then calculate the average numeric grade.    The numeric average should be passed to the determine_grade function.
+determine_grade – should display the letter grade to the user based on the numeric average:
+       Greater than 90: A
+80-89:   	  B
+70-79: 		  C
+60-69:		  D
+Below 60:  	  F
+
+Design:
+Design your program logic using pseudocode in the attached IPO Diagram.  You should have 2 separate diagrams.  One for the main function and one for the determine_grade  function.
+
+Modularity:  Your program should contain 2 functions:   a main function to accept input from the user and calculate average and a second function to display the letter grade.
+Input Validation:  The test scores entered by the user should be in the range 1-100
+Output:   Display both the numeric average (rounded to two decimals) and the letter grade
+Sample Dialog:   
+Enter score #1 in range 1-100: 900
+Error:  Re-enter score #1 in range 1-100: 90
+Enter score #2 in range 1-100: 65
+Enter score #3 in range 1-100: 98
+Enter score #4 in range 1-100: 33
+Enter score #5 in range 1-100: 75
+Your average is:  72.20 which is a(n)  C
+
+Programming Style Requirements.  
+•	Comments – Begin your program with a comment that includes: a) your name, b)program status – either “Complete” or describe any incomplete or non-functioning part of your program c)A 1-3 line description of what the program does.
+•	Function comments – each function should begin with a comment explaining what the function does
+•	Variable names – use meaningful variable names such as total_taxes or num_cookies.
+•	Function names – use meaningful verb names for functions such as display_taxes. 
+•	Named constants – Use named constants for all number values that will not be changed in the program such as RECIPE_SUGAR = 1.5.   See section 2.9 on Named Constants
+
+You should have 2 files to turn in:  
+Your program file:    yourlastname_Lab4.py 
+Your IPO diagram:   yourlastname_Lab4_IPO.docx
